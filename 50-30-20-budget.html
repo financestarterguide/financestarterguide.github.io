@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>50/30/20 Budget Rule - Finance Starter Guide</title>
+    <style>
+        :root { --primary: #2c3e50; --secondary: #3498db; --success: #27ae60; --light: #ecf0f1; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; background: #f8f9fa; }
+        .main-content { max-width: 900px; margin: 0 auto; padding: 20px; }
+        .nav { background: white; padding: 15px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .nav-content { max-width: 900px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: center; gap: 30px; }
+        .nav a { color: #2c3e50; text-decoration: none; font-weight: 600; padding: 5px 10px; border-radius: 5px; }
+        .nav a:hover { background: #ecf0f1; }
+        .article-header { background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); color: white; padding: 40px 0; text-align: center; margin-bottom: 30px; }
+        .article-header h1 { color: white; margin: 0; font-size: 2.2em; }
+        .content-card { background: white; padding: 30px; border-radius: 10px; margin: 20px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .btn-custom { display: inline-block; background: #3498db; color: white; padding: 12px 25px; border-radius: 25px; text-decoration: none; font-weight: bold; border: 2px solid #3498db; margin: 10px 0; }
+        .btn-custom:hover { background: white; color: #3498db; }
+        .budget-visual { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; margin: 25px 0; text-align: center; }
+        .budget-item { padding: 25px; border-radius: 10px; color: white; }
+        .needs { background: #3498db; }
+        .wants { background: #e74c3c; }
+        .savings { background: #27ae60; }
+        .example-table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        .example-table th, .example-table td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+        .example-table th { background: #f8f9fa; }
+        @media (max-width: 768px) { 
+            .nav-content { flex-wrap: wrap; gap: 15px; } 
+            .main-content { padding: 15px; } 
+            .budget-visual { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-content">
+            <a href="index.html">Home</a>
+            <a href="credit-cards.html">Credit Cards</a>
+            <a href="investing.html">Investing</a>
+            <a href="budgeting.html">Budgeting</a>
+            <a href="banking.html">Banking</a>
+        </div>
+    </nav>
+
+    <header class="article-header">
+        <div class="main-content">
+            <h1>The 50/30/20 Budget Rule - Complete Guide</h1>
+            <p>The simplest budgeting method that actually works</p>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <div class="content-card">
+            <h2>What is the 50/30/20 Rule?</h2>
+            <p>The 50/30/20 rule is a simple budgeting framework that divides your after-tax income into three categories:</p>
+            
+            <div class="budget-visual">
+                <div class="budget-item needs">
+                    <h3>50%</h3>
+                    <p>Needs</p>
+                </div>
+                <div class="budget-item wants">
+                    <h3>30%</h3>
+                    <p>Wants</p>
+                </div>
+                <div class="budget-item savings">
+                    <h3>20%</h3>
+                    <p>Savings & Debt</p>
+                </div>
+            </div>
+
+            <h3>Category Breakdown:</h3>
+            
+            <h4>🏠 50% - Needs (Essential Expenses)</h4>
+            <ul>
+                <li>Rent or mortgage payments</li>
+                <li>Groceries and essential food</li>
+                <li>Utilities (electricity, water, gas)</li>
+                <li>Health insurance and medical care</li>
+                <li>Minimum debt payments</li>
+                <li>Basic transportation</li>
+            </ul>
+
+            <h4>🎯 30% - Wants (Lifestyle Choices)</h4>
+            <ul>
+                <li>Dining out and entertainment</li>
+                <li>Streaming services and subscriptions</li>
+                <li>Travel and vacations</li>
+                <li>Hobbies and personal care</li>
+                <li>Brand-name clothing</li>
+                <li>Any non-essential purchases</li>
+            </ul>
+
+            <h4>💰 20% - Savings & Debt</h4>
+            <ul>
+                <li>Emergency fund contributions</li>
+                <li>Retirement accounts (401k, IRA)</li>
+                <li>Extra debt payments above minimum</li>
+                <li>Investments and savings goals</li>
+                <li>Education funds</li>
+            </ul>
+
+            <h3>Example: $4,000 Monthly Income</h3>
+            <table class="example-table">
+                <tr>
+                    <th>Category</th>
+                    <th>Percentage</th>
+                    <th>Amount</th>
+                    <th>Examples</th>
+                </tr>
+                <tr>
+                    <td>Needs</td>
+                    <td>50%</td>
+                    <td>$2,000</td>
+                    <td>Rent, groceries, utilities</td>
+                </tr>
+                <tr>
+                    <td>Wants</td>
+                    <td>30%</td>
+                    <td>$1,200</td>
+                    <td>Dining out, entertainment, hobbies</td>
+                </tr>
+                <tr>
+                    <td>Savings & Debt</td>
+                    <td>20%</td>
+                    <td>$800</td>
+                    <td>Emergency fund, retirement, extra payments</td>
+                </tr>
+            </table>
+
+            <h3>Getting Started Today:</h3>
+            <ol>
+                <li>Calculate your monthly after-tax income</li>
+                <li>Track your current spending for 30 days</li>
+                <li>Categorize expenses into needs, wants, and savings</li>
+                <li>Adjust spending to fit the 50/30/20 framework</li>
+                <li>Automate your savings and bill payments</li>
+            </ol>
+        </div>
+
+        <div style="text-align: center; margin: 30px 0;">
+            <a href="index.html" class="btn-custom">← Back to Home</a>
+            <a href="budgeting.html" class="btn-custom" style="background: #e74c3c; border-color: #e74c3c; margin-left: 10px;">More Budgeting Methods →</a>
+        </div>
+        <footer style="text-align: center; margin-top: 50px; padding: 30px 20px; border-top: 1px solid #e1e8ed; color: #7f8c8d; background: #f8f9fa;">
+    <div style="max-width: 900px; margin: 0 auto;">
+        <p>© 2025 Finance Starter Guide. All rights reserved.</p>
+        <p style="margin: 15px 0;">
+            <a href="privacy-policy.html" style="color: #3498db; margin: 0 15px; text-decoration: none;">Privacy Policy</a> | 
+            <a href="disclaimer.html" style="color: #3498db; margin: 0 15px; text-decoration: none;">Disclaimer</a> | 
+            <a href="contact.html" style="color: #3498db; margin: 0 15px; text-decoration: none;">Contact</a>
+        </p>
+        <p style="font-size: 0.9em; margin-top: 10px;">
+            Finance Starter Guide provides educational content only. Not financial advice. 
+            <a href="disclaimer.html" style="color: #3498db;">Read full disclaimer</a>.
+        </p>
+    </div>
+</footer>
+    </div>
+</body>
+</html>
